@@ -2,9 +2,8 @@
 
 I made this for my own use. This is a simple one but you can learn a lots of thing from here.
 
-![ScreenShot](https://raw.github.com/Zia005/Developer-Profile}/main/Screenshot_20220227-202953.jpg)
-
-https://i.postimg.cc/4yJ96GDc/Screenshot-20220227-203017.jpg
+![Screenshot_20220227-202953](https://user-images.githubusercontent.com/22269857/155887649-0305c368-d7c1-460b-aaaf-b55240bbe794.jpg)
+![Screenshot_20220227-203017](https://user-images.githubusercontent.com/22269857/155887653-4a5b2555-67a9-4070-840d-344924dfe170.jpg)
 
 ## Getting Started
 
