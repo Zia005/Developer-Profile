@@ -2,7 +2,7 @@
 
 I made this for my own use. This is a simple one but you can learn a lots of thing from here.
 
-![ScreenShot](https://raw.github.com/{Zia005}/{Developer-Profile}/{main}/{Screenshot_20220227-202953.jpg})
+![ScreenShot](https://raw.github.com/Zia005/Developer-Profile}/main/Screenshot_20220227-202953.jpg)
 
 https://i.postimg.cc/4yJ96GDc/Screenshot-20220227-203017.jpg
 
