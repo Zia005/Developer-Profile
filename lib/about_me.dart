@@ -45,9 +45,10 @@ class _DeveloperProfileState extends State<DeveloperProfile> {
               ],
             ),
           ),
-          const SizedBox(height: 24),
-          buildName("Zia Uddin Khan","developer.ziakhan@gmail.com"),
-          const SizedBox(height: 12),
+          Padding(
+            padding: const EdgeInsets.only(top: 24.0,bottom: 12),
+            child: buildName("Zia Uddin Khan","developer.ziakhan@gmail.com"),
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -56,11 +57,13 @@ class _DeveloperProfileState extends State<DeveloperProfile> {
               contactButton("Call Me",Icons.call)
             ],
           ),
-          const SizedBox(height: 28),
-          const Center(
-            child: Text(
-              "Connect with me",
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+          const Padding(
+            padding: EdgeInsets.only(top: 28.0),
+            child: Center(
+              child: Text(
+                "Connect with me",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+              ),
             ),
           ),
           Row(
@@ -73,8 +76,10 @@ class _DeveloperProfileState extends State<DeveloperProfile> {
               buildButton("LinkedIn","images/linkedin_round.png","https://www.linkedin.com/in/zia-khan-91a37a133"),
             ],
           ),
-          const SizedBox(height: 30),
-          buildAbout('Experienced Mobile Application Developer with a demonstrated history of working in the information technology and services industry. Skilled in Android Development, Cross Platform Development (Android, IOS), Dart, Java, Firebase, MySQL and API Development. Strong engineering professional with a Bachelor\'s degree focused in Computer Software Engineering from Metropolitan University.'),
+          Padding(
+            padding: const EdgeInsets.only(top: 30.0),
+            child: buildAbout('Experienced Mobile Application Developer with a demonstrated history of working in the information technology and services industry. Skilled in Android Development, Cross Platform Development (Android, IOS), Dart, Java, Firebase, MySQL and API Development. Strong engineering professional with a Bachelor\'s degree focused in Computer Software Engineering from Metropolitan University.'),
+          ),
         ],
       ),
     );
@@ -84,7 +89,7 @@ class _DeveloperProfileState extends State<DeveloperProfile> {
     children: [
       Text(
         name,
-        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 24,),
       ),
       const SizedBox(height: 4),
       Text(
