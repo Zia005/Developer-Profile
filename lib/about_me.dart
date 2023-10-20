@@ -3,7 +3,6 @@ import 'package:developer_info/service/service_locator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'model/theme_model.dart';
 
 class DeveloperProfile extends StatefulWidget {
