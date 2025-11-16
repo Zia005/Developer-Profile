@@ -101,7 +101,6 @@ class _DeveloperProfileState extends State<DeveloperProfile> {
   Widget contactButton(String text,IconData icon) => ElevatedButton(
     style: ElevatedButton.styleFrom(
       shape: const StadiumBorder(),
-      onPrimary: Colors.white,
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 2),
     ),
     child: Row(
